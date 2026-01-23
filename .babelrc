@@ -6,14 +6,11 @@
                     "@babel/preset-env",
                     {
                         "targets": {
-                            "browsers": [
-                                "last 1 versions",
-                                "ie >= 10"
-                            ]
+                            "browsers": ["last 1 versions", "ie >= 10"]
                         },
                         "modules": "commonjs",
                         "loose": true,
-                        "useBuiltIns": "usage"
+                        "useBuiltIns": false
                     }
                 ]
             ],
@@ -47,14 +44,11 @@
             "@babel/preset-env",
             {
                 "targets": {
-                    "browsers": [
-                        "last 1 versions",
-                        "ie >= 10"
-                    ]
+                    "browsers": ["last 1 versions", "ie >= 10"]
                 },
                 "modules": false,
                 "loose": true,
-                "useBuiltIns": "usage"
+                "useBuiltIns": false
             }
         ],
         "@babel/preset-react"
